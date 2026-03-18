@@ -1,0 +1,78 @@
+Case Study: Incident Dashboard Analysis (Ticket Volume + Excel)
+
+Issue:
+High number of incidents were raised daily, impacting SLA and increasing resolution time.
+
+Monitoring Approach:
+Used ServiceNow dashboard to track:
+
+Total ticket volume per day
+
+Priority distribution (P1, P2, P3)
+
+Incident trends over time
+
+Exported the incident data into Excel for deeper analysis.
+
+Excel Dataset:
+Sample dataset uploaded as: incident_dashboard_sample.xlsx
+
+Columns Used:
+
+Incident_ID
+
+Created_At
+
+Priority
+
+Category
+
+Status
+
+Assigned_To
+
+Excel Analysis:
+
+Created Pivot Tables to analyze:
+
+Tickets per day
+
+Tickets by priority
+
+Tickets by category
+
+Identified peak hours using time-based grouping
+
+Used bar and line charts to visualize trends
+
+Insights:
+
+Peak ticket volume observed during evening hours
+
+Majority of incidents were P2 category
+
+Login and Order issues were most frequent
+
+Repeated incidents indicated missing permanent fixes
+
+Root Cause:
+High system usage during peak hours and recurring defects in specific modules.
+
+Resolution:
+
+Fixed recurring issues with development team
+
+Increased support team availability during peak hours
+
+Improved monitoring and alerting
+
+Outcome:
+
+Reduced ticket volume by ~30%
+
+Improved SLA compliance
+
+Faster resolution time
+
+Tools Used:
+ServiceNow | Excel (Pivot Tables, Charts)
